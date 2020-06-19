@@ -1,0 +1,23 @@
+1 # PREPARAR LOS CAMBIOS PARA EL REPO LOCAL
+
+    git add .
+
+2 # AGREGAR LOS CAMBIOS AL REPO LOCAL (COMMIT)
+
+    git commit -m "<mensaje del commit>"
+
+3 # SUBIR LOS CAMBIOS DEL REPOSITORIO LOCAL AL REMOTO (GITHUB)
+
+    git push origin master
+
+4 # TRABAJAR EN UNA NUEVA FUNCIONALIDAD. AGREGAR FEATURE.
+
+    ## QUEREMOS AGREGAR UNA FUNCION QUE LEA UN ARCHIVO DE TEXTO.
+
+    git checkout -b <leer_archivo> // agregar una rama nueva y cambia el repo de trabajo a este
+
+    ## MODIFICAMOS LOS ARCHIVOS NECESARIOS PARA LA NUEVA FUNCIONALIDAD Y EJECUTAMOS 1 Y 2
+
+    ## PARA HACER push
+
+        git push origin leer_archivo
